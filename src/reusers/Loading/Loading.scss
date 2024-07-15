@@ -1,0 +1,14 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gilroy-Medium", sans-serif;
+  padding: 0 30px;
+}
+
+.loading-gif {
+  height: 150px;
+  width: 150px;
+}

@@ -1,0 +1,36 @@
+.button-with-icon {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-around;
+  min-width: 100px;
+  padding: 8px 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #ffecef;
+  }
+
+  .icon {
+    height: 18px;
+    width: 21px;
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+  }
+
+  .label {
+    font-family: "Gilroy-Bold", sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.button-green {
+  &:hover {
+    background-color: #e6f4ea;
+  }
+}

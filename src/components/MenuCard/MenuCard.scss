@@ -1,0 +1,67 @@
+.menu-card-wrapper {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Gilroy-Medium", sans-serif;
+  border-bottom: 1px solid silver;
+  max-width: 1000px;
+
+  .menu-card-content-wrapper {
+    padding-right: 15px;
+
+    .menu-card-name {
+      font-size: 18px;
+      color: #3d4152;
+      padding: 10px 0;
+      font-family: "Gilroy-Bold", sans-serif;
+    }
+    .menu-card-price {
+      font-size: 16px;
+      color: #3d4152;
+      padding: 10px 0;
+      font-family: "Gilroy-Bold", sans-serif;
+    }
+    .menu-card-description {
+      font-size: 16px;
+      color: #a0a0a0;
+      padding: 10px 0;
+      max-width: 700px;
+    }
+  }
+
+  .card-image {
+    height: 160px;
+    width: 200px;
+    border-radius: 10px;
+  }
+}
+
+.menu-card-wrapper-sm {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  .menu-card-content-wrapper {
+    padding-top: 10px;
+    padding-right: 15px;
+
+    .menu-card-name {
+      font-size: 18px;
+      padding: 7px 0;
+    }
+    .menu-card-price {
+      font-size: 16px;
+      padding: 7px 0;
+    }
+    .menu-card-description {
+      font-size: 16px;
+      padding: 7px 0;
+    }
+  }
+
+  .card-image {
+    height: 160px;
+    width: 80%;
+    border-radius: 10px;
+  }
+}

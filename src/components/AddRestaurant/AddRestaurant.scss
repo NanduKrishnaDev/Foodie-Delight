@@ -1,0 +1,86 @@
+.add-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1260px;
+}
+
+.add-container {
+  padding: 40px 0;
+  margin: 0 20px;
+  font-family: "Gilroy-Medium", sans-serif;
+  align-self: center;
+  width: 60vw;
+
+  .add-title {
+    font-size: 28px;
+    font-family: "Gilroy-Bold", sans-serif;
+  }
+
+  .add-card {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1000px;
+
+  }
+
+  .add-card-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 20px;
+    width: 100%;
+    padding-top: 70px;
+  }
+
+  .add-card-input-sub-wrapper {
+    width: 40%;
+  }
+
+  .add-card-input-sub-wrapper-alone {
+    width: 100%;
+  }
+}
+
+
+.add-container-md {
+  padding: 40px 0;
+  margin: 0 20px;
+
+  .add-title {
+    font-size: 24px;
+    font-family: "Gilroy-Bold", sans-serif;
+  }
+
+  .add-card {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1000px;
+
+  }
+
+  .add-card-input-wrapper {
+    gap: 0 20px;
+    width: 100%;
+    padding-top: 30px;
+
+  }
+
+  .add-card-input-sub-wrapper {
+    width: 100%;
+  }
+
+  .add-card-input-sub-wrapper-alone {
+    width: 100%
+  }
+}
+
+.add-container-lg {
+  width: 80vw;
+
+}
+
+.details-button-wrapper {
+  padding: 15px 0;
+}

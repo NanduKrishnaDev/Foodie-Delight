@@ -1,0 +1,102 @@
+.card-container {
+  width: 300px;
+  box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.75);
+  font-family: "Gilroy-Medium", sans-serif;
+  border-radius: 5px;
+
+  .card-image {
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .card-content {
+    padding: 0 20px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #3d4152;
+    text-transform: capitalize;
+  }
+
+  .card-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    color: #a0a0a0;
+    text-transform: capitalize;
+  }
+
+  .card-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #6c7a86;
+  }
+
+  .card-rating {
+    padding: 3px 5px;
+    background-color: #00c04b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      height: 14px;
+      width: 14px;
+    }
+
+    .card-rating-number {
+      margin-left: 5px;
+      font-size: 16px;
+      color: white;
+      font-weight: 600;
+    }
+  }
+}
+
+.card-container-md {
+  width: 80%;
+
+  .card-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .card-content {
+    padding: 0 12px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-subtitle {
+    font-size: 16px;
+  }
+
+  .card-bottom {
+    padding-top: 30px;
+    font-size: 14px;
+  }
+
+  .card-rating {
+    img {
+      height: 14px;
+      width: 14px;
+    }
+
+    .card-rating-number {
+      font-size: 14px;
+    }
+  }
+}
+
+.card-container:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
