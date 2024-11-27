@@ -43,6 +43,8 @@ const RestaurantDetails = () => {
     }
   }, [restaurantsList, resId]);
 
+  console.log(restaurant, restaurants);
+
   const cuisineString = restaurant?.cuisines?.join("  ,  ");
 
   const deleteRes = () => {

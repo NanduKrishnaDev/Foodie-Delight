@@ -18,7 +18,7 @@ const RestaurantListing = () => {
       // Adding a set time out of 1 second to mock the API fetch effect
       setTimeout(() => {
         dispatch(initialAdd(restaurants));
-      }, 1000);
+      }, 100);
     }
   }, []);
 

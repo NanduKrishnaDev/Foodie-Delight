@@ -20,10 +20,17 @@ const RestaurantCard = ({ restaurant }) => {
       className={`${breakPoints.sm ? "card-container-md" : ""} card-container`}
       onClick={goToDetails}
     >
+      {/* <img
+        src="https://res.cloudinary.com/ddu2xft2h/image/upload/t_Banner%2016:9/v1720809927/kristof-korody-oHMBgihcBoM-unsplash_l0vmgz.jpg"
+        className="card-image-blur"
+        alt={`${restaurant?.name} image`}
+      /> */}
       <img
         src={`${baseUrl}${restaurant?.cloudinaryUrl}`}
         className="card-image"
         alt={`${restaurant?.name} image`}
+        fetchPriority="high"
+        // loading="lazy"
       />
       <div className="card-content">
         <div className="card-title">{restaurant?.name}</div>
